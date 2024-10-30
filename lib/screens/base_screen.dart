@@ -1,11 +1,11 @@
 import 'package:druid/screens/chatgpt_screen.dart';
-import 'package:druid/screens/gemini_screen.dart';
 import 'package:druid/screens/settings_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:slide_switcher/slide_switcher.dart';
 
 import '../theme/app_colors.dart';
 import '../theme/app_text_style.dart';
+import 'gemini_screen.dart';
 
 class BaseScreen extends StatefulWidget {
   static String routeName = "/base-screen";

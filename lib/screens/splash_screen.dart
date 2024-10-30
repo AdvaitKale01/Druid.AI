@@ -24,8 +24,10 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void _navigateToBaseScreen() {
     Future.delayed(const Duration(seconds: 2), () {
-      if (mounted) {  // Check if widget is still mounted
-        Navigator.of(context).pushReplacementNamed(BaseScreen.routeName);
+      if (mounted) {
+        // Check if widget is still mounted
+        Navigator.push(
+            context, MaterialPageRoute(builder: (context) => BaseScreen()));
       }
     });
   }

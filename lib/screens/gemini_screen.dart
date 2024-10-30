@@ -32,7 +32,7 @@ class _GeminiScreenState extends State<GeminiScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.black,
+      backgroundColor: AppColors.blue,
       body: Column(
         children: [
           InAppWebView(
