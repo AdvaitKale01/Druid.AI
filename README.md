@@ -1,6 +1,6 @@
-# druid
+# Druid.AI
 
-A new Flutter project.
+A chrome extension made in Flutter.
 
 ## Getting Started
 
