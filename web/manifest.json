@@ -1,0 +1,23 @@
+{
+    "name": "Druid",
+    "description": "All in one Chrome Copilot",
+    "version": "1.0.0",
+    "action": {
+        "default_icon": {
+            "192": "icons/Icon-192.png",
+            "512": "icons/Icon-512.png"
+        },
+        "default_title": "Open Druid Side Panel"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "side_panel": {
+        "default_path": "index.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["sidePanel", "scripting"],
+    "manifest_version": 3
+}
