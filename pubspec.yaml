@@ -13,11 +13,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
 
 
   cupertino_icons: ^1.0.6
   slide_switcher: ^1.1.2
-  flutter_inappwebview: ^6.0.0
   url_launcher: ^6.3.1
   url_launcher_web: ^2.3.3
 
